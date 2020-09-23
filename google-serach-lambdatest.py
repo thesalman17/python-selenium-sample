@@ -83,6 +83,7 @@ class LTAutomate(unittest.TestCase):
         elem.submit()
 
         print("Printing title of current page :"+driver.title)
+        print('Salman Khan')
         driver.execute_script("lambda-status=passed")
         print("Requesting to mark test : pass")
 
